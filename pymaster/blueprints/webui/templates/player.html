@@ -1,0 +1,22 @@
+{% extends "api.html" %}
+{% block content %}
+<div class="container">
+<h1>{{ player.name }}</h1>
+
+<div class="jumbotron">
+ <img src= {{"https://pesmaster.fra1.cdn.digitaloceanspaces.com"+player.image}}>
+
+<h2>Nation: {{player.nation}}</h2>
+<p>
+    Team: {{player.team}}
+</p>
+<p>
+    Overall: {{player.over}}
+</p>
+<p>
+    Position: {{player.pos}}
+</p>
+<a href={{"https://pesmaster.fra1.cdn.digitaloceanspaces.com"+player.selfLink}}>Player Link in PesMaster</a>
+</div>
+</div>
+{% endblock %}
