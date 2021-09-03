@@ -32,5 +32,5 @@ def init_app(app):
     admin.init_app(app)
     admin.add_view(sqla.ModelView(Nations, db.session))
     admin.add_view(sqla.ModelView(Players, db.session))
-    admin.add_view(UserAdmin(User, db.session))
+    #admin.add_view(UserAdmin(User, db.session))
    
