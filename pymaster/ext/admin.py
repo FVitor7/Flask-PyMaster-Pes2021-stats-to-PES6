@@ -10,8 +10,8 @@ from pymaster.ext.database import db
 from pymaster.models import User, Nations, Players
 
 # Proteger o admin com login via Monkey Patch
-AdminIndexView._handle_view = login_required(AdminIndexView._handle_view)
-sqla.ModelView._handle_view = login_required(sqla.ModelView._handle_view)
+# AdminIndexView._handle_view = login_required(AdminIndexView._handle_view)
+# sqla.ModelView._handle_view = login_required(sqla.ModelView._handle_view)
 
 
 admin = Admin()
