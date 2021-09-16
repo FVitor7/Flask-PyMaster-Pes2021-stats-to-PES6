@@ -3,9 +3,16 @@
 
 {% block body %}
 
+
 <h1>Painel Administrativo</h1>
 <br>
-<p>Atenção: <span>O Painel Administrativo está sem proteção de forma proposital.</span></p>
+<h3>Atenção: <span>O Painel Administrativo está sem proteção de forma proposital.</span></h3>
+<br>
+<h4>
+  As alterações feitas no banco de dados através do painel administrativo tem efeito temporario no site. Porém o banco de dados irá restaurar seus dados originais de forma automática!
+</h4>
+
+
 <button onclick="location.href='/'" type="button" class="btn btn-primary">Retornar ao site</button>
 <!--<button onclick="location.href='/logout'" type="button" class="btn btn-secondary">Logout</button>-->
 {% endblock %}
