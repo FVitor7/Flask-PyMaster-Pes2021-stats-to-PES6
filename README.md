@@ -1,11 +1,11 @@
 # PyMaster (Pes2021 stats to PES6)
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
-![GitHub repo size](https://img.shields.io/github/repo-size/fvitor7/pesmaster?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/FVitor7/PesMaster?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/FVitor7/PesMaster?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/FVitor7/PesMaster?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/FVitor7/PesMaster?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/fvitor7/Flask-PyMaster-Pes2021-stats-to-PES6?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/FVitor7/Flask-PyMaster-Pes2021-stats-to-PES6?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/FVitor7/Flask-PyMaster-Pes2021-stats-to-PES6?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/FVitor7/Flask-PyMaster-Pes2021-stats-to-PES6?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/FVitor7/Flask-PyMaster-Pes2021-stats-to-PES6?style=for-the-badge)
 
 <img src="pymaster.jpg" alt="PyMaster">
 
@@ -15,7 +15,7 @@
 
 ## Clone
 ```bash
-git clone https://github.com/FVitor7/PyMaster-Pes2021-stats-to-PES6.git
+git clone https://github.com/FVitor7/Flask-PyMaster-Pes2021-stats-to-PES6.git
 ```
 
 ### Ajustes e melhorias
