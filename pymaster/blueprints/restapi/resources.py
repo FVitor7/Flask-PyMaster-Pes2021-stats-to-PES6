@@ -22,7 +22,7 @@ class UserSchemaPlayer(ma.SQLAlchemyAutoSchema):
 
 
 class NationResourceID(Resource):
-    @login_required
+    #@login_required
     def get(self, nation_id):
         nation = Nations.query.filter_by(
             CountryID=nation_id).first() or abort(404)
@@ -30,7 +30,7 @@ class NationResourceID(Resource):
 
 
 class NationResource(Resource):
-    @login_required
+    #@login_required
     def get(self):
         req_name = request.args.get("nation")
         if req_name == None:
@@ -44,14 +44,14 @@ class NationResource(Resource):
 
 
 class PlayerResourceID(Resource):
-    @login_required
+    #@login_required
     def get(self, player_id):
         player = Players.query.filter_by(
             PlayerID=player_id).first() or abort(404)
         return jsonify(player.to_dict())
 
 class PlayerResourcePes6ID(Resource):
-    @login_required
+    #@login_required
     def post(self):
         posted_data = request.get_json()
         player_id = posted_data['player_id']
@@ -63,7 +63,7 @@ class PlayerResourcePes6ID(Resource):
         database = (player.to_dict())
         return convert_stats_pes2021_to_pes6(json.dumps(database))
 
-    @login_required
+    #@login_required
     def get(self): 
         req_id = request.args.get("id")
         if req_id == None:
@@ -79,7 +79,7 @@ class PlayerResourcePes6ID(Resource):
 
 class PlayerHomeStats(Resource):
 
-    @login_required
+    #@login_required
     def get(self):
 
         user_schemaNations = UserSchemaNation(many=True)
@@ -127,7 +127,7 @@ class PlayerHomeStats(Resource):
             elif req_pos == 'CF':
                 req_pos = "12"
             
-        print(req_pos)
+        
         req_nation = request.args.get("nation")
         nation_name = ""
         if req_nation == None:
@@ -186,7 +186,7 @@ class PlayerHomeStats(Resource):
 ###############
 class PlayerResource(Resource):
 
-    @login_required
+    #@login_required
     def get(self):
 
         user_schemaNations = UserSchemaNation(many=True)
@@ -234,7 +234,7 @@ class PlayerResource(Resource):
             elif req_pos == 'CF':
                 req_pos = "12"
             
-        print(req_pos)
+        
         req_nation = request.args.get("nation")
         nation_name = ""
         if req_nation == None:
