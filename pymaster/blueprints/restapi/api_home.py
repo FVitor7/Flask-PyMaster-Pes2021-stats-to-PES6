@@ -2,7 +2,7 @@ import json
 from flask import jsonify
 from flask_simplelogin import login_required
 
-@login_required
+#@login_required
 def api_home(json_player):
     jp = json.loads(json_player)
     list_api_home = []
