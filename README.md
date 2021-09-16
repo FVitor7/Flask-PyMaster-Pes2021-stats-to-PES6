@@ -4,8 +4,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/fvitor7/Flask-PyMaster-Pes2021-stats-to-PES6?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/FVitor7/Flask-PyMaster-Pes2021-stats-to-PES6?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/FVitor7/Flask-PyMaster-Pes2021-stats-to-PES6?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/FVitor7/Flask-PyMaster-Pes2021-stats-to-PES6?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/FVitor7/Flask-PyMaster-Pes2021-stats-to-PES6?style=for-the-badge)
 
 <img src="pymaster.jpg" alt="PyMaster">
 
