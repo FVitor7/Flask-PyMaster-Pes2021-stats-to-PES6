@@ -8,8 +8,7 @@ import os
 #os.system('sqlautocode -d -o sqlite:///development.db')
 #os.system("flask create-db")
 os.system("flask populate-db")
-os.system("flask add-user -u fbrazoli -p faph698013")
-os.system("flask add-user -u admin -p real10ucl")
+os.system("flask add-user -u admin -p 1234")
 
 
 
