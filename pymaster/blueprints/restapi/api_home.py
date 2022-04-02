@@ -8,8 +8,7 @@ def api_home(json_player):
     list_api_home = []
     for data in jp:
 
-        img_player = '/players/pes-2021/player_'\
-        + str(data["PlayerID"]) + ".png"
+        img_player = "/pes-2021-mobile/graphics/players/" + str(data["PlayerID"]) + ".png"
     
         position_pes6 = data["RegisteredPosition"]
         if position_pes6 == "0":
