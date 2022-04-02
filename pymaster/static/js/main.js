@@ -387,7 +387,7 @@ function createLine(obj) {
   }
 
 
-  var url_base = 'https://pesmaster.fra1.cdn.digitaloceanspaces.com';
+  var url_base = 'https://www.pesmaster.com';
 
   var line = `'<tr <a target="_blank" class="namelink" onclick="get_stats_table('${obj.id}')"></a>>'
     '<th scope="row"><img src="${url_base}${obj.image}" onerror="imgError(this);" style="width: auto; height: auto;max-width: 70px;max-height: 70px"></th>'
