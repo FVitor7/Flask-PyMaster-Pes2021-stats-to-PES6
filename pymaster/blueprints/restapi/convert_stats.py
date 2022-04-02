@@ -359,7 +359,7 @@ def convert_stats_pes2021_to_pes6(json_player):
     else:
         foot = "L"
     
-    img_player = "https://pesmaster.fra1.cdn.digitaloceanspaces.com/players/pes-2021/player_" + str(jp["PlayerID"]) +  ".png"
+    img_player = "https://www.pesmaster.com/pes-2021-mobile/graphics/players/" + str(jp["PlayerID"]) +  ".png"
 
     player_array = {"id":jp["PlayerID"],"positions":positions_ps2,\
         "special_abilities":special_alibities_pes6,"img_player":img_player,\
